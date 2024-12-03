@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hava-durumu-container{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hava-durumu-container .img{
+    width: 100%;
+    height: 100vh;
+}
+.hava-durumu-container img{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+}
+.content{
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.503);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+    max-width: 400px;
+    height: 500px;
+    position: absolute;
+    text-align: center;
+    color: white;
+}
+.content h1{
+    color: white;
+    font-weight: 800;
+}
+.content input{
+    margin: 10px;
+    font-size: 20px;
+    width: 50%;
+    height: 30px;
+    padding: 5px 10px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 2px solid rgb(41, 41, 41);
+    text-align: center;
+    color: white;
+}
+input::placeholder{
+    color: white;
+    font-size: 15px;
+}
+#sehirAdi{
+    margin: 10px;
+}
+#sicaklik{
+    margin: 15px;
+}
